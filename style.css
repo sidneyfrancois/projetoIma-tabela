@@ -98,6 +98,10 @@ tr:nth-child(n + 17) td:nth-child(1) {
   color: #c91b04;
 }
 
+tfoot {
+  height: 40px;
+}
+
 i label:before {
   content: "";
   display: inline-block;
