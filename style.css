@@ -97,3 +97,37 @@ tr:nth-child(n + 13):nth-child(-n + 16) td:nth-child(1) {
 tr:nth-child(n + 17) td:nth-child(1) {
   color: #c91b04;
 }
+
+i label:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+
+.azul-escuro:before {
+  background: #003366;
+}
+
+.azul-claro:before {
+  background: #1398be;
+}
+
+.amarelo:before {
+  background: #de9800;
+}
+
+.vermelho:before {
+  background: #c91b04;
+}
+
+label {
+  font-size: 10px;
+  color: #555555;
+  float: left;
+  margin-top: 4px;
+  margin-left: 5px;
+}
