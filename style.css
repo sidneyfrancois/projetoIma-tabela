@@ -26,9 +26,28 @@ td {
   width: 45px;
 }
 
+thead {
+  height: 35px;
+}
+
+tbody tr td {
+  height: 30px;
+  font-size: 14px;
+  width: 40px;
+}
+
+tbody tr td:nth-child(n + 11) {
+  width: 50px;
+}
+
+thead th:nth-child(n + 2) {
+  font-size: 13px;
+  color: #999999;
+}
+
 th {
   color: #999999;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -37,11 +56,10 @@ td:nth-child(2) {
   color: #666666;
   text-align: left;
   font-weight: bold;
-  width: 140px;
+  width: 220px;
 }
 
 td:nth-child(n + 3):nth-child(odd) {
-  font-size: 14px;
   color: #666666;
   text-align: center;
   background-color: #f7f7f7;
@@ -53,6 +71,10 @@ tr:nth-child(16) {
 }
 
 td:nth-child(1) {
+  font-weight: bold;
+}
+
+td:nth-child(3) {
   font-weight: bold;
 }
 
